@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Archway Hospitality Group — recovered material &amp; proposed scope</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Manrope:wght@300..700&display=swap" rel="stylesheet">
+<style>
+/* Built with the design tokens recovered from your live site. */
+:root{
+  --background:#050505; --surface:#0d0d0d; --surface-2:#141414;
+  --gold:#b88728; --gold-bright:#d1a13a; --ivory:#f3efe7; --muted:#aaa49b;
+  --border:#b8872859;
+  --serif:"Cormorant Garamond",Georgia,serif;
+  --sans:"Manrope",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--background);color:var(--ivory);font-family:var(--sans);
+     font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1060px;margin:0 auto;padding:0 clamp(1.1rem,4vw,2.5rem)}
+header.top{border-bottom:1px solid var(--border);padding:clamp(2.5rem,7vw,4.5rem) 0 clamp(2rem,5vw,3rem)}
+h1{font-family:var(--serif);font-weight:300;font-size:clamp(2.1rem,1.2rem+3.6vw,3.8rem);
+   line-height:1.05;margin:.2em 0 .35em;letter-spacing:-.01em}
+h2{font-family:var(--serif);font-weight:400;font-size:clamp(1.6rem,1.2rem+1.6vw,2.4rem);
+   margin:0 0 .3em;letter-spacing:-.005em}
+h3{font-family:var(--sans);font-weight:600;font-size:.78rem;letter-spacing:.2em;
+   text-transform:uppercase;color:var(--gold-bright);margin:0 0 1.2rem}
+p{max-width:62ch;color:var(--ivory)}
+.lede{color:var(--muted);font-size:1.05rem}
+.eyebrow{font-size:.72rem;letter-spacing:.26em;text-transform:uppercase;color:var(--gold);
+   font-weight:600;margin:0}
+section{padding:clamp(2.5rem,6vw,4.5rem) 0;border-bottom:1px solid var(--border)}
+section:last-of-type{border-bottom:0}
+
+/* asset grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:1.1rem;margin-top:1.8rem}
+figure{margin:0;background:var(--surface);border:1px solid var(--border);border-radius:3px;overflow:hidden;
+       display:flex;flex-direction:column}
+figure .shot{aspect-ratio:4/3;display:grid;place-items:center;padding:.9rem;background:var(--surface-2)}
+figure img{max-width:100%;max-height:100%;object-fit:contain;display:block}
+figcaption{padding:.85rem .95rem;font-size:.78rem;color:var(--muted);word-break:break-word;
+           display:flex;flex-direction:column;gap:.5rem;flex:1;justify-content:space-between}
+figcaption a{color:var(--gold-bright);text-decoration:none;font-weight:600;letter-spacing:.06em;
+             font-size:.72rem;text-transform:uppercase;width:max-content}
+figcaption a:hover{text-decoration:underline}
+
+/* before/after */
+.ba{margin-top:1.6rem;border:1px solid var(--border);border-radius:3px;overflow:hidden;background:var(--surface)}
+.ba img{width:100%;display:block}
+
+/* tokens */
+.tokens{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.8rem;margin-top:1.6rem}
+.tok{border:1px solid var(--border);border-radius:3px;overflow:hidden;background:var(--surface)}
+.sw{height:62px}
+.tok p{margin:0;padding:.6rem .7rem;font-size:.72rem;color:var(--muted);font-family:ui-monospace,monospace}
+.tok b{display:block;color:var(--ivory);font-family:var(--sans);font-size:.78rem;margin-bottom:.15rem}
+
+/* scope table */
+table{width:100%;border-collapse:collapse;margin-top:1.6rem;font-size:.94rem}
+th,td{text-align:left;padding:.95rem .7rem;border-bottom:1px solid var(--border);vertical-align:top}
+th{font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-bright);font-weight:600}
+td.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--gold-bright);
+     font-family:var(--serif);font-size:1.15rem}
+td small{display:block;color:var(--muted);font-size:.84rem;margin-top:.25rem;max-width:52ch}
+tr.done td{color:var(--muted)}
+tr.done td.n{color:#7FB069}
+tfoot td{border-bottom:0;padding-top:1.3rem;font-weight:600}
+tfoot td.n{font-size:1.5rem;color:var(--ivory)}
+.note{background:var(--surface);border-left:2px solid var(--gold);padding:1.1rem 1.3rem;margin-top:1.8rem;
+      border-radius:0 3px 3px 0}
+.note p{margin:0;color:var(--muted);font-size:.93rem}
+footer{padding:2.5rem 0 3.5rem;color:var(--muted);font-size:.85rem}
+@media (max-width:620px){
+  table, tbody, tr, td, th{display:block}
+  thead{display:none}
+  tr{border-bottom:1px solid var(--border);padding:.6rem 0}
+  td{border:0;padding:.35rem .2rem}
+  td.n{text-align:left;font-size:1.25rem}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <p class="eyebrow">Archway Hospitality Group · Albany, New York</p>
+    <h1>Everything recovered from your site,<br>and what it takes to finish it.</h1>
+    <p class="lede">
+      The previous build's source code is gone — I confirmed that. Your design, your copy and
+      your artwork are not. All of it is below, downloadable, at original resolution.
+    </p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h3>01 — Your artwork, recovered</h3>
+    <h2>Three logos and five photographs</h2>
+    <p>Pulled from your live site at full resolution, not the resized copies the page serves.
+       Right-click any of these and save, or use the download link.</p>
+
+    <div class="grid">
+      <figure>
+        <div class="shot"><img src="assets/brands_archway_archway-logo.png" alt="Archway Hospitality Group logo"></div>
+        <figcaption>archway-logo.png · 2187×454
+          <a href="assets/brands_archway_archway-logo.png" download>Download</a></figcaption>
+      </figure>
+      <figure>
+        <div class="shot"><img src="assets/brands_jc-hwangs_jc-hwangs-logo.png" alt="J.C. Hwang's Albany logo"></div>
+        <figcaption>jc-hwangs-logo.png
+          <a href="assets/brands_jc-hwangs_jc-hwangs-logo.png" download>Download</a></figcaption>
+      </figure>
+      <figure>
+        <div class="shot"><img src="assets/brands_robata_robata-logo.jpg" alt="Robata Albany logo"></div>
+        <figcaption>robata-logo.jpg
+          <a href="assets/brands_robata_robata-logo.jpg" download>Download</a></figcaption>
+      </figure>
+      <figure>
+        <div class="shot"><img src="assets/images_homepage_hero-interior.png" alt="Dining room interior through the arch"></div>
+        <figcaption>hero-interior.png
+          <a href="assets/images_homepage_hero-interior.png" download>Download</a></figcaption>
+      </figure>
+      <figure>
+        <div class="shot"><img src="assets/images_homepage_story-arch-line-art.png" alt="Arch line art"></div>
+        <figcaption>story-arch-line-art.png
+          <a href="assets/images_homepage_story-arch-line-art.png" download>Download</a></figcaption>
+      </figure>
+      <figure>
+        <div class="shot"><img src="assets/images_homepage_archway-menu-cover.png" alt="Archway menu cover on a plate"></div>
+        <figcaption>archway-menu-cover.png
+          <a href="assets/images_homepage_archway-menu-cover.png" download>Download</a></figcaption>
+      </figure>
+      <figure>
+        <div class="shot"><img src="assets/images_restaurants_jc-hwangs-sichuan.png" alt="Sichuan dish"></div>
+        <figcaption>jc-hwangs-sichuan.png
+          <a href="assets/images_restaurants_jc-hwangs-sichuan.png" download>Download</a></figcaption>
+      </figure>
+      <figure>
+        <div class="shot"><img src="assets/images_restaurants_robata-skewers.png" alt="Robata skewers"></div>
+        <figcaption>robata-skewers.png
+          <a href="assets/images_restaurants_robata-skewers.png" download>Download</a></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h3>02 — Already fixed, free</h3>
+    <h2>The logo now reads on a dark header</h2>
+    <p>Top is what your site shows today; the navy half measures 1.33:1 against the header,
+       where 3:1 is the accessibility floor. Bottom is the corrected version — same mark, same
+       gold, only the WAY half and the strapline lightened. That takes it to 13:1.</p>
+    <div class="ba"><img src="assets/logo-before-after.png" alt="Logo before and after, on the site's header colour"></div>
+    <p style="margin-top:1.2rem">
+      <a href="assets/archway-logo-light.png" download
+         style="color:var(--gold-bright);font-weight:600;letter-spacing:.06em;font-size:.78rem;text-transform:uppercase">
+        Download the corrected logo (transparent PNG, 2187×454)</a>
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h3>03 — Your design system</h3>
+    <h2>Read straight off the live build</h2>
+    <p>These are the exact values your site renders with, so the rebuild matches it rather than
+       approximating it. Headings are Cormorant Garamond (88px on desktop), body is Manrope,
+       with a Noto Sans SC fallback so Chinese characters render properly on the menus.</p>
+    <div class="tokens">
+      <div class="tok"><div class="sw" style="background:#050505;border-bottom:1px solid #b8872859"></div><p><b>Background</b>#050505</p></div>
+      <div class="tok"><div class="sw" style="background:#0d0d0d"></div><p><b>Surface</b>#0d0d0d</p></div>
+      <div class="tok"><div class="sw" style="background:#141414"></div><p><b>Surface 2</b>#141414</p></div>
+      <div class="tok"><div class="sw" style="background:#b88728"></div><p><b>Gold</b>#b88728</p></div>
+      <div class="tok"><div class="sw" style="background:#d1a13a"></div><p><b>Gold bright</b>#d1a13a</p></div>
+      <div class="tok"><div class="sw" style="background:#f3efe7"></div><p><b>Ivory</b>#f3efe7</p></div>
+      <div class="tok"><div class="sw" style="background:#aaa49b"></div><p><b>Muted</b>#aaa49b</p></div>
+    </div>
+    <p style="margin-top:1.4rem">
+      <a href="design-tokens.css" download
+         style="color:var(--gold-bright);font-weight:600;letter-spacing:.06em;font-size:.78rem;text-transform:uppercase">
+        Download design-tokens.css</a>
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h3>04 — Also recovered</h3>
+    <h2>Every word already written for you</h2>
+    <p>All fifteen pages of copy, including the ten job descriptions, and all five menus —
+      breakfast, lunch, dinner, the 9-Bowl Tasting Experience and the Robata robatayaki menu.
+      Four of those five sit behind tab buttons on the current site, so they don't appear in a
+      normal page save; they're captured. Nothing needs rewriting.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h3>05 — What it takes to finish</h3>
+    <h2>Line by line, so nothing surprises you</h2>
+    <p>Each line is a fixed price for that piece of work, paid when that piece is delivered and
+       you're happy with it. Cross off anything you don't want and it comes off the bill.
+       Nothing gets built that isn't on this list.</p>
+
+    <table>
+      <thead>
+        <tr><th>Work</th><th style="text-align:right">Price</th></tr>
+      </thead>
+      <tbody>
+        <tr class="done">
+          <td>Logo corrected for dark backgrounds
+            <small>Done already. Yours whether or not we go further.</small></td>
+          <td class="n">done</td>
+        </tr>
+        <tr>
+          <td>Rebuild the site from the recovered design
+            <small>All 15 pages, same design, your copy and artwork in place, responsive on
+              phone and tablet, clean code in your own repository.</small></td>
+          <td class="n">$260</td>
+        </tr>
+        <tr>
+          <td>Content management system
+            <small>So your team edits text, swaps photos, updates menus and posts to a blog
+              without a developer. This is the line that stops you paying someone every time
+              a dish changes.</small></td>
+          <td class="n">$180</td>
+        </tr>
+        <tr>
+          <td>Separate pages for J.C. Hwang's and Robata
+            <small>Each brand with its own hours, address, story and gallery, instead of both
+              sharing one tabbed menu page.</small></td>
+          <td class="n">$90</td>
+        </tr>
+        <tr>
+          <td>Careers applications
+            <small>Apply on the site with a CV upload, arriving in your inbox — rather than
+              the current email link.</small></td>
+          <td class="n">$70</td>
+        </tr>
+        <tr>
+          <td>OpenTable reservations
+            <small>Both restaurants, booking widget embedded on your pages and restyled to sit
+              on the dark theme. Built now, IDs wired in when your OpenTable account is live
+              next week.</small></td>
+          <td class="n">$60</td>
+        </tr>
+        <tr>
+          <td>Dish photography, placed and optimised
+            <small>Your photos sized, compressed and laid out across the menus and galleries so
+              the pages stay fast.</small></td>
+          <td class="n">$50</td>
+        </tr>
+        <tr>
+          <td>Analytics, sharing and SEO finishing
+            <small>Google Analytics, the missing og:image so links preview properly on WhatsApp
+              and Facebook, structured data for both restaurants.</small></td>
+          <td class="n">$45</td>
+        </tr>
+        <tr>
+          <td>Light logo versions for both restaurants
+            <small>J.C. Hwang's and Robata marks currently sit on white boxes; same treatment
+              the Archway logo just had.</small></td>
+          <td class="n">$25</td>
+        </tr>
+        <tr>
+          <td>Launch on archwayhospitality.com
+            <small>DNS, SSL, redirects, sitemap pointed at the real domain, and the whole thing
+              handed over in your GitHub and your Vercel account.</small></td>
+          <td class="n">$40</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr><td>Everything above</td><td class="n">$820</td></tr>
+      </tfoot>
+    </table>
+
+    <div class="note">
+      <p>You are one month from opening. The rebuild and the CMS are the long poles — those two
+         want starting now. OpenTable, the dish photos and the domain launch all slot in later
+         without holding anything up.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>Prepared for Archway Hospitality Group, Inc. · Page built with your own recovered design
+       tokens. Artwork on this page is your property, recovered from your live site.</p>
+  </div>
+</footer>
+
+</body>
+</html>

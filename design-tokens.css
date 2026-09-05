@@ -1,0 +1,16 @@
+/* Archway Hospitality Group — design system recovered from the live build
+   (computed off https://archway-webdesign.vercel.app, 2026-09-05).
+   These are the exact values the current site renders with. */
+:root{
+  --background:  #050505;   /* page */
+  --surface:     #0d0d0d;   /* cards, bands */
+  --surface-2:   #141414;   /* raised */
+  --gold:        #b88728;   /* primary brand gold (buttons) */
+  --gold-bright: #d1a13a;   /* highlight gold (eyebrows, links) */
+  --ivory:       #f3efe7;   /* body + heading text */
+  --muted:       #aaa49b;   /* secondary text */
+  --border:      #b8872859; /* gold at 35% */
+
+  --serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;  /* headings, h1 = 88px desktop */
+  --sans:  "Manrope", "Noto Sans SC", "Microsoft YaHei", Arial, sans-serif; /* body; SC fallback for Chinese */
+}
